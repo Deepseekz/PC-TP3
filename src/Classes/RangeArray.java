@@ -63,7 +63,7 @@ public class RangeArray<T> implements Iterable<T>{
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        return new RangeArrayIterator<>(this);
     }
 
     @Override
