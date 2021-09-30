@@ -34,7 +34,7 @@ public class Main {
 
         // Exercice 2 : Iterateur sur des grilles
         // 1.
-        String[][] elements = {{"A","C","E","G"},{"B","S","F","H"}};
+        String[][] elements = {{"A","C","E","G"},{"B","D","F","H"}};
         Grid<String> grid = new Grid<>(elements);
         for (int line = 0 ; line < grid.nbLines() ; line++)
             for (int column = 0 ; column < grid.nbColumns() ; column++)
